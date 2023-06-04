@@ -4,7 +4,7 @@ body{
 }
 .img-container{
     width: 90vw;
-    height: auto;
+    height: 50vh;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -82,7 +82,7 @@ h1 {
     font-size: 40pt;
 }
 
-h1{
+h2{
     font-size: 34pt;
 }
 
