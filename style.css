@@ -4,7 +4,7 @@ body{
 }
 .img-container{
     width: 90vw;
-    height: 50vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -74,10 +74,8 @@ body{
 
 @media only screen and (max-width: 600px) {
 
-  body {
-
-    background-color: lightblue;
-
-  }
+.text p {
+    font-size: 12pt;
+}
 
 }
