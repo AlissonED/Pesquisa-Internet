@@ -19,7 +19,7 @@ body{
     padding-left: 16pt;
     padding-right: 16pt;
 }
-.text h1{
+h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 45pt;
     text-align: center;
@@ -72,10 +72,87 @@ body{
     display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 .text p {
     font-size: 12pt;
 }
 
+h1 {
+    font-size: 40pt;
 }
+
+h1{
+    font-size: 34pt;
+}
+
+.img3{
+    width: 90%;
+    height: auto;
+    margin:0 auto;
+}
+
+.par{
+    padding-right : 0;
+    margin:0 auto;
+    width: 95%;
+}
+
+.pp{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+}
+
+.img2{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.par1{
+    padding-left: 0;
+    margin:0 auto;
+    width: 100%;
+}
+.www{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+}
+
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .break-line {
+        display: block;
+        content: "";
+        margin-top: 1em;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .text {
+    order: 2;
+    }
+
+    .t {
+    order: 0;
+    }
+
+    .img-container {
+    order: 1;
+    }
+
+    .f{
+        order: 3;
+    }
+
+}
+
